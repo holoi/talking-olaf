@@ -1,6 +1,3 @@
-![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/5753a5e3-bbd7-4d68-b25a-26d06e7be131)# ar-chat-bot-olaf
-This project is a unity project, creating an ar chat bot and have a conversation! 
-
 # Project Description:
 This project showcases an intelligent conversational character in an augmented reality (AR) experience. The character featured in this project is Olaf from Disney's Frozen.
 This project is an extension of Example 8 from: https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9. Special thanks to HelixNGC7293 for their generous contributions.
