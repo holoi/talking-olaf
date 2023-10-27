@@ -35,6 +35,6 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 
 ## Further Reading
 Here, I will provide some of the links I discovered during my earlier research related to "AI" and "Chatbot".
-ChatVRM: https://chat-vrm-window.vercel.app/
-GPTHangout: https://www.gpthangout.com/
-AI Girlfriend: https://helixngc7293.itch.io/yandere-ai-girlfriend-simulator/download/eyJleHBpcmVzIjoxNjg4NTIzNzM1LCJpZCI6MTk4MjAzNX0=.Mq8C3RRhfE9i1VkrvKouQga+IR4=
+1. ChatVRM: https://chat-vrm-window.vercel.app/
+2. GPTHangout: https://www.gpthangout.com/
+3. AI Girlfriend: https://helixngc7293.itch.io/yandere-ai-girlfriend-simulator/download/eyJleHBpcmVzIjoxNjg4NTIzNzM1LCJpZCI6MTk4MjAzNX0=.Mq8C3RRhfE9i1VkrvKouQga+IR4=
