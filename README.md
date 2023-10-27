@@ -4,6 +4,9 @@ This project is an extension of Example 8 from: https://github.com/HelixNGC7293/
 ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/0afc9ed1-a1c2-4a2d-aaf9-3a6ddfeb0ff8)
 
 # Demo
+https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/e4b9ac76-9029-4866-a671-dfe2469c3e1a
+
+
 
 # Technical Description
 ## Character Features
