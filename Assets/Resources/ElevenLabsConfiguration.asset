@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cce286a502a0bf49b18070725e9f4f8, type: 3}
+  m_Name: ElevenLabsConfiguration
+  m_EditorClassIdentifier: 
+  apiKey: fb52b3aab0bd7bea513c115ba525179d
+  proxyDomain: 
+  apiVersion: v1
+  globalVoice:
+    name: Sam
+    id: yoZ06aMxZJJ28mfd3POQ

@@ -1,0 +1,42 @@
+{
+  "name": "com.holoi.holokit",
+  "displayName": "HoloKit SDK",
+  "version": "0.0.2",
+  "unity": "2021.3",
+  "description": "HoloKit Unity SDK enables Unity developers to develop StAR (Stereoscopic Augmented Reality) apps on HoloKit.\n\nIt provides two main features, which are stereoscopic rendering and hand tracking. The stereoscopic rendering feature allows developers to turn an AR project into a StAR one. The hand tracking feature provides a basic input method for the user to interact with the virtual contents in AR.\n\nHoloKit SDK is compatible with ARFoundation.",
+  "keywords": [
+    "holokit",
+    "ar",
+    "mr",
+    "xr"
+  ],
+  "author": {
+    "name": "Holo Interactive",
+    "email": "yuchen@holoi.com",
+    "url": "https://holoi.com"
+  },
+  "dependencies": {
+    "com.unity.xr.arfoundation": "5.0.0-pre.13",
+    "com.unity.xr.arkit": "5.0.0-pre.13",
+    "com.unity.xr.management": "4.2.1",
+    "com.unity.render-pipelines.universal": "12.1.6"
+  },
+  "hideInEditor": false,
+  "samples": [
+    {
+      "displayName": "Stereoscopic Rendering",
+      "description": "Contains sample project on how to setup a basic stereoscopic rendering scene",
+      "path": "Samples~/SamplesStereoscopicRendering"
+    },
+    {
+      "displayName": "Hand Tracking",
+      "description": "Contains sample project on how to setup a basic hand tracking scene",
+      "path": "Samples~/SamplesHandTracking"
+    },
+    {
+      "displayName": "Advanced Hand Tracking",
+      "description": "Contains sample project on demonstrating a common use case of hand tracking",
+      "path": "Samples~/SamplesAdvancedHandTracking"
+    }
+  ]
+}
