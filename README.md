@@ -4,13 +4,12 @@
 
 # Abstract
 This project showcases an intelligent conversational character in an augmented reality (AR) experience. The character featured in this project is Olaf from Disney's Frozen.
-This project is an extension of Example 8 from: https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9: 
+This project is an extension of Example 8 from: https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9, special thanks to HelixNGC7293 for their generous contributions.
 ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/0afc9ed1-a1c2-4a2d-aaf9-3a6ddfeb0ff8)
-Special thanks to HelixNGC7293 for their generous contributions.
+
 
 # Demo
 https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/e4b9ac76-9029-4866-a671-dfe2469c3e1a
-
 
 
 # Features
