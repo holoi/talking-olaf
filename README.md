@@ -92,8 +92,8 @@ Shapekey:
    https://www.youtube.com/watch?v=yg3RSTV2JnQ&t=2s
 
 Some of the method to capture facial motion:
-   [Quality real-time face capture mocap with your iPhone](https://www.rokoko.com/products/face-capture)
-   [Accelerating Facial Motion Capture with Video-driven Animation Transfer](https://www.youtube.com/watch?v=ALJ4GBj_64o)
-   [Unity Face Capture Tutorial - Facial animation for games/animated projects](https://www.youtube.com/watch?v=jZfCDikR0IQ)
-   [Unity Face Capture - Easy Tutorial (2022)](https://www.youtube.com/watch?v=UNW78Z8pvSU)
-   [How I Facial Motion Capture](https://www.youtube.com/watch?v=4LnGFtGjk2E)
+   1. [Quality real-time face capture mocap with your iPhone](https://www.rokoko.com/products/face-capture)
+   2. [Accelerating Facial Motion Capture with Video-driven Animation Transfer](https://www.youtube.com/watch?v=ALJ4GBj_64o)
+   3. [Unity Face Capture Tutorial - Facial animation for games/animated projects](https://www.youtube.com/watch?v=jZfCDikR0IQ)
+   4. [Unity Face Capture - Easy Tutorial (2022)](https://www.youtube.com/watch?v=UNW78Z8pvSU)
+   5. [How I Facial Motion Capture](https://www.youtube.com/watch?v=4LnGFtGjk2E)
