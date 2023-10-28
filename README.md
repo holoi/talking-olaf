@@ -65,7 +65,7 @@ And it’s not allowed to given to others. So, you can choose your own model wit
    - mouth shape I
    - mouth shape O
    - mouth shape U
-![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/974d53bf-8460-44cd-afbc-2ba5a2ddba55)
+   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/974d53bf-8460-44cd-afbc-2ba5a2ddba55)
 3. Binding shapekey with uLipSync
     
     Follow the instruction from: https://github.com/hecomi/uLipSync
@@ -86,15 +86,13 @@ Some of the links to projects I discovered during my earlier research related to
    1. ChatVRM: https://chat-vrm-window.vercel.app/
    2. GPTHangout: https://www.gpthangout.com/
    3. AI Girlfriend: https://helixngc7293.itch.io/yandere-ai-girlfriend-simulator/download/eyJleHBpcmVzIjoxNjg4NTIzNzM1LCJpZCI6MTk4MjAzNX0=.Mq8C3RRhfE9i1VkrvKouQga+IR4=
+
 Shapekey:
    https://www.youtube.com/watch?v=yg3RSTV2JnQ&t=2s
+
 Some of the method to capture facial motion:
    [Quality real-time face capture mocap with your iPhone](https://www.rokoko.com/products/face-capture)
-
    [Accelerating Facial Motion Capture with Video-driven Animation Transfer](https://www.youtube.com/watch?v=ALJ4GBj_64o)
-   
    [Unity Face Capture Tutorial - Facial animation for games/animated projects](https://www.youtube.com/watch?v=jZfCDikR0IQ)
-   
    [Unity Face Capture - Easy Tutorial (2022)](https://www.youtube.com/watch?v=UNW78Z8pvSU)
-   
    [How I Facial Motion Capture](https://www.youtube.com/watch?v=4LnGFtGjk2E)
