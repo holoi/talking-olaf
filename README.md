@@ -65,9 +65,9 @@ And it’s not allowed to given to others. So, you can choose your own model wit
    - mouth shape O
    - mouth shape U
 
-![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/974d53bf-8460-44cd-afbc-2ba5a2ddba55)
+   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/974d53bf-8460-44cd-afbc-2ba5a2ddba55)
 
-3. Binding shapekey with uLipSync
+2. Binding shapekey with uLipSync
     
     Follow the instruction from: https://github.com/hecomi/uLipSync
     
