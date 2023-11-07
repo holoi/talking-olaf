@@ -39,7 +39,12 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 
 # System requirements
 
-Unity 2022.3.8f1
+This project uses HoloKit SDK and aims to build an app runs on iOS device.
+I created and built this project in Unity 2022.3.8f1, I highly recommand you use this version and above to open the project.
+Make sure your Unity had install the iOS module:
+  1. Some features from HoloKit SDK only works on platform of iOs. If you work on other platform, some code may fail to compile, preventing you from entering Play mode and significantly impacting your development experience.
+  2. Build to an Xcode project needs iOS module.
+I built this project to iPhone with Xcode 14.2.
 
 # How to try it
 Fist, clone the project and open in Unity.
