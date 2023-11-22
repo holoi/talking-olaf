@@ -47,6 +47,7 @@ You can change the prompt to create you own personality here:
 [ ] image where prompt inputs
 
 ### Character Intelligence
+
 In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversations.
 
 ### Character Voice (TTS)
@@ -59,6 +60,7 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 ## Character Expressions
 1. After resolving the character's voice, the next challenge was lip synchronization. We wouldn't want to see an animated character with mismatched lip movements.
 2. I opted for uLipSync as the solution. When using uLipSync, you only need to create at least five ShapeKeys (lip shapes corresponding to English vowel sounds) for your character model. uLipSync will then adjust the lip shapes based on the spoken content to synchronize them with the text.
+
    ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/1c15523a-8afd-428c-ad03-a15bf99b6515)
 
 4. For instructions on how to use uLipSync, please visit the following: https://github.com/hecomi/uLipSync
