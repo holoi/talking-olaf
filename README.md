@@ -36,7 +36,7 @@ https://youtu.be/1XiYsCdCDEE
     <source src="https://youtu.be/1XiYsCdCDEE" type="video/mp4">
 </video>
 -
-nothing
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/1XiYsCdCDEE/0.jpg)](http://www.youtube.com/watch?v=1XiYsCdCDEE "Video Title")
 -
 https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/e4b9ac76-9029-4866-a671-dfe2469c3e1a
 -
