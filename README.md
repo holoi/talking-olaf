@@ -131,7 +131,7 @@ Once you got a character with shapekey, here is a simple instruction on how to i
 ### Customize voice
 1. Open this conponent:
    ![image](https://github.com/holoi/talking-olaf/assets/52849063/4997dd2e-d071-4fd9-a5d8-b23d2a82593d)
-2. Find fucntion SpecificVoiceSettings in line 74:
+2. Find fucntion SpecificVoiceSettings() in line 74:
    ```
          // use a specific voice 
         async void SpecificVoiceSettings()
