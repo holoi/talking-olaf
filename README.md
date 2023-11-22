@@ -37,7 +37,7 @@ https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/e4b9ac76-9029-4866-a67
 
 ## Features
 
-### Character Features
+### Character Personality
 
 At the start of the program, GPT is utilized to bring the character to life by providing a descriptive text for character embodiment.
 
@@ -58,7 +58,8 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 3. For the actual operations, I downloaded several clips from Frozen on YouTube and edited Olaf's dialogues together in Adobe Premiere Pro (source files not provided) to create the training audio for 11labs.
 4. For specific details on using 11labs to train custom voice models, please refer to the official elevenlabs documentation: https://elevenlabs.io/
 
-## Character Expressions
+### Character Expressions
+
 1. After resolving the character's voice, the next challenge was lip synchronization. We wouldn't want to see an animated character with mismatched lip movements.
 2. I opted for uLipSync as the solution. When using uLipSync, you only need to create at least five ShapeKeys (lip shapes corresponding to English vowel sounds) for your character model. uLipSync will then adjust the lip shapes based on the spoken content to synchronize them with the text.
 
@@ -66,8 +67,9 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 
 4. For instructions on how to use uLipSync, please visit the following: https://github.com/hecomi/uLipSync
 
-## Voice Recognization(SST: Speech to Text)
-1. I chose the Azure Speech Recognization Service from Microsoft platform due to its portability and the fact that it's free of charge.
+### Voice Recognization(SST: Speech to Text)
+
+1. This project use Azure Speech Recognization Service from Microsoft platform due to its portability and the fact that it's free of charge.
 2. Here is the sample project from Azure on how to use their service in Unity: https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples/csharp/unity
 
 ## Requirements
