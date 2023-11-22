@@ -5,6 +5,7 @@ This project showcases an intelligent conversational character in an augmented r
 ## What is talking-olaf
 
 This project aims to validate the performance of an intelligent chatbot in augmented or mixed reality environments, initially focusing on emotional support and assistance. 
+
 The goal is to build an app running on iPhone devices. Upon opening the app, users can create a snowman character by scanning the floor and tapping the screen. The snowman character greets users proactively, initiating a conversation. 
 
 [ ] image
