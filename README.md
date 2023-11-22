@@ -22,13 +22,9 @@ It has a voice and cognition consistent with the character, and users can even a
 
 - The character featured in this project is Olaf from Disney's Frozen.
 - This project was inspired by and built upon Example 8 from: 
-
    https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9
-
    <img src="https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/0afc9ed1-a1c2-4a2d-aaf9-3a6ddfeb0ff8" width="640" />
-
    Special thanks to HelixNGC7293 for their generous contributions.
-
 
 ## Demo
 
@@ -43,9 +39,10 @@ At the start of the program, GPT is utilized to bring the character to life by p
 
 > Imagine you are Olaf, the lovable snowman from Frozen. You are known for your cheerful and optimistic personality. Describe your playful and innocent nature, your love for warm hugs, your childlike curiosity about the world, and your tendency to find joy in even the simplest things. Additionally, depict your unique style of speaking, using a mix of childlike wonder, puns, and endearing innocence when interacting with others. Lastly, mention some memorable experiences you've had, such as adventures with Anna and Elsa, and your thoughts on friendship and the importance of love.
 
-You can change the prompt to create you own personality here: 
+You can replace the prompt with your own to create new personality on object "ChatGPT": 
 
-[ ] image where prompt inputs
+![image](https://github.com/holoi/talking-olaf/assets/52849063/3b72e6cd-5ddf-4076-8144-2d3a5c8d7466)
+
 
 ### Character Intelligence
 
@@ -65,12 +62,13 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 
    ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/1c15523a-8afd-428c-ad03-a15bf99b6515)
 
-4. For instructions on how to use uLipSync, please visit the following: https://github.com/hecomi/uLipSync
+4. For more instructions about uLipSync, visit the following: https://github.com/hecomi/uLipSync
 
 ### Voice Recognization(SST: Speech to Text)
 
 1. This project use Azure Speech Recognization Service from Microsoft platform due to its portability and the fact that it's free of charge.
-2. Here is the sample project from Azure on how to use their service in Unity: https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples/csharp/unity
+2. Here is the sample project from Azure on how to use their service in Unity:
+   https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples/csharp/unity
 
 ## Requirements
 
@@ -81,7 +79,7 @@ This project aims to build an app runs on iOS device.
 
 ## How to try it
 
-### How to build an app
+### How to build app to your device
 
 1. Clone the project and open in Unity.
 2. Open Scene in path: Assets->Demos->GPTJapaneseGirl->Scene->UtteranceRecognizer_11labs_LipSync
