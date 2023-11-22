@@ -83,14 +83,14 @@ This project aims to build an app runs on iOS device.
 ### How to build app to your device
 
 1. Clone the project and open in Unity.
-2. Open Scene in path: Assets->Demos->GPTJapaneseGirl->Scene->UtteranceRecognizer_11labs_LipSync
+2. Open Scene in path: Assets->Scenes->TalkingOlaf
 3. Paste your api key of openai to:
    ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/f68ac5c9-3147-4833-8673-be7eba69a6c5)
 4. Paste your api key of elevenLabs to:
    ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/df1fb94f-28b4-42b8-bd53-80dc99b2fe5d)
 5. Paste your subscribtion key and service region to:
    ![image](https://github.com/holoi/talking-olaf/assets/52849063/fd8d17ce-c762-41d2-a423-cc51bb4c311f)
-6. [Optional] Ckick on Play, then click on simulator window to active the chararter. Try to talk with him/her after greeting.
+6. [Optional] Debug in editor: click on Play, then click on simulator window to active the charcter. Try to talk with him/her after greeting.
 7. Build this scene to an Xcode project.
 8. Open Xcode and build app to your device.
 
