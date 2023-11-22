@@ -96,12 +96,12 @@ Please refer to the instructions in 'What is talking-olaf' for the steps to play
 
 ## Customization
 
-### Add your own chararcter
+### Replace character by your own
 
 We used olaf model bought from: https://www.cgtrader.com/3d-models/character/fantasy-character/frozen-olaf-rig-blender
 
 And it’s not allowed to given to others. So, you can choose your own model with shapekey or buy this model and add shapekey by your own. 
-（If you don't have experience in 3D modeling, this section might take some extra time to complete. If you have experience in 3D modeling, shapesky won't be a challenging task; you can learn it in just a 15-minute YouTube tutorial. Please refer the following section: Add shapekey to your chararcter）.
+（If you don't have experience in 3D modeling, this section might take some extra time to complete. If you have experience in 3D modeling, shapesky won't be a challenging task; you can learn it in just a 15-minute YouTube tutorial. Please refer the following section: Add shapekey to your character）.
 
 Once you got a character with shapekey, here is a simple instruction on how to import and replace the legacy character:
 
@@ -110,7 +110,7 @@ Once you got a character with shapekey, here is a simple instruction on how to i
 - Add your model as a child to this prefab, save and exit.
 - Open scene “Assets/Demos/GPT Chat Bot/Scene/Custom_11labs_uLipSync_azure”
 
-### Add shpekey to your chararcter
+### Add shpekey to your character
 
 1. Add shape key (here we offer an instruction with Blender）
 
@@ -128,8 +128,25 @@ Once you got a character with shapekey, here is a simple instruction on how to i
    
    ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/00216257-27e6-471c-a3ff-3446cbf6e968)
 
+### Customize voice
+1. Open this conponent:
+   ![image](https://github.com/holoi/talking-olaf/assets/52849063/4997dd2e-d071-4fd9-a5d8-b23d2a82593d)
+2. Find fucntion SpecificVoiceSettings in line 74:
+   ```
+         // use a specific voice 
+        async void SpecificVoiceSettings()
+        {
+            // replace toneId to customize your voice
+            var toneId = "vDMb7LyBvR9IYV5tNJnV";
+            var voice = await api.VoicesEndpoint.GetVoiceAsync(toneId);
+            var success = await api.VoicesEndpoint.EditVoiceSettingsAsync(voice, new VoiceSettings(0.7f, 0.7f));
+            Debug.Log($"Was successful? {success}");
+        }
+   ```
+   Replace the 'toneId' with your own on the Eleven Labs page to customize the voice.
 
 ## Further Reading
+
 **Some of the links to projects I discovered during my earlier research related to "AI" and "Chatbot":**
    1. ChatVRM: https://chat-vrm-window.vercel.app/
    2. GPTHangout: https://www.gpthangout.com/
