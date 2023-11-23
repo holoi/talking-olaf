@@ -31,7 +31,7 @@ It has a voice and cognition consistent with the character, and users can even a
 
 [![Video](http://img.youtube.com/vi/1XiYsCdCDEE/0.jpg)](http://www.youtube.com/watch?v=1XiYsCdCDEE)
 
-## Features
+## How does it work
 
 ### Character Personality
 
