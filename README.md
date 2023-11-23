@@ -31,11 +31,6 @@ It has a voice and cognition consistent with the character, and users can even a
 
 [![Video](http://img.youtube.com/vi/1XiYsCdCDEE/0.jpg)](http://www.youtube.com/watch?v=1XiYsCdCDEE)
 
---
-
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1700722601/video_to_markdown/images/youtube--1XiYsCdCDEE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/1XiYsCdCDEE "")
-
-
 ## Features
 
 ### Character Personality
