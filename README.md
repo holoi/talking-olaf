@@ -6,13 +6,13 @@ This project showcases an intelligent conversational character in an augmented r
 
 This project aims to validate the performance of an intelligent chatbot in augmented or mixed reality environments, initially focusing on emotional support and assistance. 
 
-The goal is to build an app running on iPhone devices. Upon opening the app, users can create a snowman character by scanning the floor and tapping the screen. The snowman character greets users proactively, initiating a conversation. 
+[![Video](http://img.youtube.com/vi/1XiYsCdCDEE/0.jpg)](http://www.youtube.com/watch?v=1XiYsCdCDEE)
 
-[ ] image
+The goal is to build an app running on iPhone devices. Upon opening the app, users can create a snowman character by scanning the floor and tapping the screen. The snowman character greets users proactively, initiating a conversation. 
 
 After the greeting, a blue input time indicator appears and slowly shortens. During this time, users need to input content by speaking. 
 
-[ ] image
+[ ] image blue progress bar
 
 Once the blue input time indicator disappears, the snowman character responds after a brief delay. 
 
@@ -23,13 +23,9 @@ It has a voice and cognition consistent with the character, and users can even a
 - The character featured in this project is Olaf from Disney's Frozen.
 - This project was inspired by and built upon Example 8 from: 
    https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9
-   <img src="https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/0afc9ed1-a1c2-4a2d-aaf9-3a6ddfeb0ff8" width="640" />
+   [ ] ref image
 
   Special thanks to HelixNGC7293 for their generous contributions.
-
-## Demo
-
-[![Video](http://img.youtube.com/vi/1XiYsCdCDEE/0.jpg)](http://www.youtube.com/watch?v=1XiYsCdCDEE)
 
 ## How does it work
 
@@ -41,7 +37,7 @@ At the start of the program, GPT is utilized to bring the character to life by p
 
 You can replace the prompt with your own to create new personality on object "ChatGPT": 
 
-![image](https://github.com/holoi/talking-olaf/assets/52849063/3b72e6cd-5ddf-4076-8144-2d3a5c8d7466)
+[ ] image 01
 
 
 ### Character Intelligence
@@ -60,7 +56,7 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 1. After resolving the character's voice, the next challenge was lip synchronization. We wouldn't want to see an animated character with mismatched lip movements.
 2. I opted for uLipSync as the solution. When using uLipSync, you only need to create at least five ShapeKeys (lip shapes corresponding to English vowel sounds) for your character model. uLipSync will then adjust the lip shapes based on the spoken content to synchronize them with the text.
 
-   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/1c15523a-8afd-428c-ad03-a15bf99b6515)
+   [ ] image 02
 
 4. For more instructions about uLipSync, visit the following: https://github.com/hecomi/uLipSync
 
@@ -82,15 +78,16 @@ This project aims to build an app runs on iOS device.
 ### How to build app to your device
 
 1. Clone the project and open in Unity.
-2. Open Scene in path: Assets->Scenes->TalkingOlaf
+2. Open Scene in path: Assets->Scenes->TalkingCustom
 3. Paste your api key of openai to:
-   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/f68ac5c9-3147-4833-8673-be7eba69a6c5)
+   [ ] image 03
 4. Paste your api key of elevenLabs to:
-   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/df1fb94f-28b4-42b8-bd53-80dc99b2fe5d)
+   [ ] image 04
 5. Paste your subscribtion key and service region to:
-   ![image](https://github.com/holoi/talking-olaf/assets/52849063/fd8d17ce-c762-41d2-a423-cc51bb4c311f)
-6. [Optional] Debug in editor: click on Play, then click on simulator window to active the charcter. Try to talk with him/her after greeting.
-7. Build this scene to an Xcode project.
+   [ ] image 05
+6. Add your own character with shapekey as child object of "Mesh Sample"
+   [ ] image mesh sample
+7. Build to an Xcode project.
 8. Open Xcode and build app to your device.
 
 ### How to play
@@ -121,7 +118,7 @@ Once you got a character with shapekey, here is a simple instruction on how to i
    
    **What shapekeys we need:** Shapekeys can be considered as deformations on the model. We need to create 5 shapekeys for facial expressions, mainly focusing on lip shapes for the English vowels A, E, I, O, U. So, we need to create 5 shapekeys. The reference for lip shapes is provided in the image below. You can stretch and deform based on this image to achieve the closest effects：
 
-   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/974d53bf-8460-44cd-afbc-2ba5a2ddba55)
+   [ ] image 06
 
 2. Binding shapekey in Unity with uLipSync
     
@@ -129,11 +126,11 @@ Once you got a character with shapekey, here is a simple instruction on how to i
     
     And here is how your U Lip Sync Blend Shape component should set up:
    
-   ![image](https://github.com/holoi/ar-chat-bot-olaf/assets/52849063/00216257-27e6-471c-a3ff-3446cbf6e968)
+   [ ] image 07
 
 ### Customize voice
 1. Open this conponent:
-   ![image](https://github.com/holoi/talking-olaf/assets/52849063/4997dd2e-d071-4fd9-a5d8-b23d2a82593d)
+   [ ] image 08
 2. Find fucntion SpecificVoiceSettings() in line 74:
    ```
          // use a specific voice 
