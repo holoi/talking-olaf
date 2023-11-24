@@ -12,11 +12,12 @@ The goal is to build an app running on iPhone devices. Upon opening the app, use
 
 After the greeting, a blue input time indicator appears and slowly shortens. During this time, users need to input content by speaking. 
 
-![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/blue-time-bar.png)
+<img src="https://github.com/holoi/talking-olaf/blob/main/Documents/blue-time-bar.png" width="640"/>
 
 Once the blue input time indicator disappears, the snowman character responds after a brief delay. 
 
-![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/response.avif)
+<img src="https://github.com/holoi/talking-olaf/blob/main/Documents/response.avif" width="320"/>
+
 
 It has a voice and cognition consistent with the character, and users can even ask about Frozen and Princess Elsa. This process repeats, generating interesting and imaginative conversations with the snowman!
 
@@ -118,7 +119,7 @@ Once you got a character with shapekey, here is a simple instruction on how to i
    
    **What shapekeys we need:** Shapekeys can be considered as deformations on the model. We need to create 5 shapekeys for facial expressions, mainly focusing on lip shapes for the English vowels A, E, I, O, U. So, we need to create 5 shapekeys. The reference for lip shapes is provided in the image below. You can stretch and deform based on this image to achieve the closest effects：
 
-   [ ] image 06
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/06.png)
 
 2. Binding shapekey in Unity with uLipSync
     
@@ -126,11 +127,11 @@ Once you got a character with shapekey, here is a simple instruction on how to i
     
     And here is how your U Lip Sync Blend Shape component should set up:
    
-   [ ] image 07
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/07.png)
 
 ### Customize voice
 1. Open this conponent:
-   [ ] image 08
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/08.png)
 2. Find fucntion SpecificVoiceSettings() in line 74:
    ```
          // use a specific voice 
