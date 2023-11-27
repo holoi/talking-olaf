@@ -6,7 +6,11 @@ This project showcases an intelligent conversational character in an augmented r
 
 This project aims to validate the performance of an intelligent chatbot in augmented or mixed reality environments, initially focusing on emotional support and assistance. 
 
-[![TalkingOlaf](https://res.cloudinary.com/marcomontalbano/image/upload/v1700722601/video_to_markdown/images/youtube--1XiYsCdCDEE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=1XiYsCdCDEE "TalkingOlaf")
+<!-- [![TalkingOlaf](Documentation~/images/09.png)](https://www.youtube.com/watch?v=1XiYsCdCDEE "TalkingOlaf") -->
+
+<div align = "center">
+<a href="https://www.youtube.com/watch?v=1XiYsCdCDEE" target="_blank"><img src="Documentation~/images/09.png" alt="Video Thumbnail" width="320"></a>
+</div>
 
 The goal is to build an app running on iPhone devices. Upon opening the app, users can create a snowman character by scanning the floor and tapping the screen. The snowman character greets users proactively, initiating a conversation. 
 
