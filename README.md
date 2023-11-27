@@ -24,7 +24,7 @@ It has a voice and cognition consistent with the character, and users can even a
 - The character featured in this project is Olaf from Disney's Frozen.
 - This project was inspired by and built upon Example 8 from: 
    https://github.com/HelixNGC7293/IPG_2023/tree/315ab0392f87c82d1d60b2ea94f4d1a8b1b563f9
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/ref-sample.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/ref-sample.png)
 
   Special thanks to HelixNGC7293 for their generous contributions.
 
@@ -38,7 +38,7 @@ At the start of the program, GPT is utilized to bring the character to life by p
 
 You can replace the prompt with your own to create new personality on object "ChatGPT": 
 
-![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/01.png)
+![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/01.png)
 
 
 ### Character Intelligence
@@ -57,7 +57,7 @@ In Unity, GPT-3.5 model is integrated to achieve intelligent text-based conversa
 1. After resolving the character's voice, the next challenge was lip synchronization. We wouldn't want to see an animated character with mismatched lip movements.
 2. I opted for uLipSync as the solution. When using uLipSync, you only need to create at least five ShapeKeys (lip shapes corresponding to English vowel sounds) for your character model. uLipSync will then adjust the lip shapes based on the spoken content to synchronize them with the text.
 
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/02.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/02.png)
 
 4. For more instructions about uLipSync, visit the following: https://github.com/hecomi/uLipSync
 
@@ -81,13 +81,13 @@ This project aims to build an app runs on iOS device.
 1. Clone the project and open in Unity.
 2. Open Scene in path: Assets->Scenes->TalkingCustom
 3. Paste your api key of openai to:
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/03.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/03.png)
 4. Paste your api key of elevenLabs to:
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/04.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/04.png)
 5. Paste your subscribtion key and service region to:
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/05.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/05.png)
 6. Add your own character with shapekey as child object of "Mesh Sample"
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/mesh-sample.jpeg)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/mesh-sample.png)
 7. Build to an Xcode project.
 8. Open Xcode and build app to your device.
 
@@ -119,7 +119,7 @@ Once you got a character with shapekey, here is a simple instruction on how to i
    
    **What shapekeys we need:** Shapekeys can be considered as deformations on the model. We need to create 5 shapekeys for facial expressions, mainly focusing on lip shapes for the English vowels A, E, I, O, U. So, we need to create 5 shapekeys. The reference for lip shapes is provided in the image below. You can stretch and deform based on this image to achieve the closest effects：
 
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/06.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/06.png)
 
 2. Binding shapekey in Unity with uLipSync
     
@@ -127,11 +127,11 @@ Once you got a character with shapekey, here is a simple instruction on how to i
     
     And here is how your U Lip Sync Blend Shape component should set up:
    
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/07.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/07.png)
 
 ### Customize voice
 1. Open this conponent:
-   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documents/08.png)
+   ![Example Image](https://github.com/holoi/talking-olaf/blob/main/Documentations/08.png)
 2. Find fucntion SpecificVoiceSettings() in line 74:
    ```
          // use a specific voice 
